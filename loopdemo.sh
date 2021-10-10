@@ -23,3 +23,16 @@ do
 done
 
 
+select fruit in APPLE MANGO BANANA
+case $fruit in
+APPLE) 
+    echo "Apple match found " ;;
+BANANA)
+    echo "banana match found";;
+*) 
+echo "Any other match found" ;;
+none)
+break ;;
+
+esac
+done
