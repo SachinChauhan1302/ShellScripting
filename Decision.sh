@@ -1,4 +1,4 @@
-#file demonstrating decision making in shell
+#This file demonstrating decision making in shell
 
 a=5
 
